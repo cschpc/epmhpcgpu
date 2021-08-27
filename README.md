@@ -1,4 +1,4 @@
-# Dataset and files for the paper Evaluating Programming Models for the HPC GPU Ecosystem
+# Dataset and scripts for the paper Evaluating Programming Models for the HPC GPU Ecosystem
 
 # Directories
 
