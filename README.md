@@ -2,7 +2,7 @@
 
 # Directories
 
-## sc_scripts
+## sc_script
 
 It is the output fromt he SC script to collect data from the three used systems
 
