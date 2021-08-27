@@ -1,0 +1,11 @@
+--- SYCLStream.cpp	2021-08-24 00:00:13.000000000 +0300
++++ tune/SYCLStream.cpp	2021-08-24 00:00:29.000000000 +0300
+@@ -46,6 +46,8 @@
+   {
+     dot_num_groups = dev.get_info<info::device::max_compute_units>() * 4;
+     dot_wgsize     = dev.get_info<info::device::max_work_group_size>();
++    dot_wgsize=1024;
++    dot_num_groups=216;
+   }
+ 
+   // Print out device information

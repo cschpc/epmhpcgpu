@@ -1,0 +1,13 @@
+--- CUPLAStream.h       2021-08-23 13:14:27.585728493 -0700
++++ CUPLAStream.h       2021-08-23 13:14:12.825932401 -0700
+@@ -18,8 +18,8 @@
+
+ #define IMPLEMENTATION_STRING "CUPLA"
+
+-#define TBSIZE 1024
+-#define DOT_NUM_BLOCKS 256
++#define TBSIZE 256
++#define DOT_NUM_BLOCKS 720
+
+ template <class T>
+ class CUPLAStream : public Stream<T>

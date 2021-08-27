@@ -1,0 +1,13 @@
+--- HIPStream.cpp       2021-08-23 12:59:10.249077936 -0700
++++ HIPStream.cpp       2021-08-23 13:00:01.501779582 -0700
+@@ -8,8 +8,8 @@
+ #include "HIPStream.h"
+ #include "hip/hip_runtime.h"
+
+-#define TBSIZE 1024
+-#define DOT_NUM_BLOCKS 256
++#define TBSIZE 256
++#define DOT_NUM_BLOCKS 260
+
+ void check_error(void)
+ {

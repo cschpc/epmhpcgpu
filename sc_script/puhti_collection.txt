@@ -1,0 +1,616 @@
+PMIX_SERVER_URI2USOCK=pmix-server:116496:/tmp/pmix-116496
+KOKKOS_PATH=/scratch/project_2002078/USER/amd/BabelStream/new/kokkos
+MKLROOT=/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl
+LMOD_FAMILY_COMPILER_VERSION=9.1.0
+SLURM_NODELIST=r02g01
+MANPATH=/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/share/man:/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/share/man
+SLURM_JOB_NAME=example
+PMIX_NAMESPACE=slurm.pmix.7310172.0
+XDG_SESSION_ID=290948
+_ModuleTable003_=IixbImZ1bGxOYW1lIl09ImN1ZGEvMTEuMS4wIixbImxvYWRPcmRlciJdPTcscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iY3VkYSIsfSxnY2M9e1siZm4iXT0iL2FwcGwvc3BhY2svbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L0NvcmUvZ2NjLzkuMS4wLmx1YSIsWyJmdWxsTmFtZSJdPSJnY2MvOS4xLjAiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJnY2MiLH0sWyJocGN4LW1waSJdPXtbImZuIl09Ii9hcHBsL3NwYWNrL21vZHVsZWZpbGVzL2xpbnV4LXJoZWw3LXg4Nl82NC9nY2MvOS4xLjAvaHBjeC1tcGkvMi40
+HOSTNAME=r02g01
+SLURM_THREADS_PER_CORE=1
+SLURM_TOPOLOGY_ADDR=r02g01
+SLURMD_NODENAME=r02g01
+INTEL_MKL_INSTALL_ROOT=/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl
+SELINUX_ROLE_REQUESTED=
+SLURM_PRIO_PROCESS=0
+SLURM_SRUN_COMM_PORT=40435
+I_MPI_F77=gfortran
+SLURM_NODE_ALIASES=(null)
+__LMOD_REF_COUNT_MODULEPATH=/appl/spack/modulefiles/linux-rhel7-x86_64/hpcx-mpi/2.4.0-dnpueiz/gcc/9.1.0:1;/appl/spack/modulefiles/linux-rhel7-x86_64/gcc/9.1.0:1;/appl/spack/modulefiles/linux-rhel7-x86_64/Core:1;/appl/modulefiles:1
+TERM=xterm-256color
+SHELL=/bin/bash
+SLURM_MPI_TYPE=pmix_v2
+HISTSIZE=1000
+SLURM_HINT=nomultithread
+SLURM_JOB_QOS=normal
+LMOD_SYSTEM_DEFAULT_MODULES=StdEnv
+MODULEPATH_ROOT=/appl/spack/modulefiles/linux-rhel7-x86_64
+TMPDIR=/tmp/USER/7310172
+SSH_CLIENT=86.50.165.196 54632 22
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SLURM_JOB_CPUS_PER_NODE_PACK_GROUP_0=1
+LIBRARY_PATH=/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2/lib64:/appl/spack/install-tree/gcc-9.1.0/boost-1.68.0-6pttok/lib:/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/lib:/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/tbb/lib/intel64_lin/gcc4.7:/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64_lin:/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin:/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/lib64:/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/lib:/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2/lib64/stubs
+LMOD_PACKAGE_PATH=/appl/opt/lmod/apps
+SELINUX_USE_CURRENT_RANGE=
+PMIX_RANK=0
+SLURM_CPU_BIND_VERBOSE=quiet
+LMOD_PKG=/appl/spack/install-tree/gcc-4.8.5/lmod-7.8-tf4lqs/lmod/lmod
+CUPLA_ROOT=/scratch/project_2002078/USER/cupla
+LMOD_VERSION=7.8
+SLURM_JOB_GPUS=0,1,2,3
+SSH_TTY=/dev/pts/254
+SLURM_CPU_BIND_LIST=0x0000000001
+__LMOD_REF_COUNT_LOADEDMODULES=StdEnv:1;gcc/9.1.0:1;intel-mkl/2019.0.4:1;hpcx-mpi/2.4.0:1;boost/1.68.0:1;cmake/3.18.2:1;cuda/11.1.0:1
+__LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2:1;/appl/spack/install-tree/gcc-4.8.5/cmake-3.18.2-aq45vh:1;/appl/spack/install-tree/gcc-9.1.0/boost-1.68.0-6pttok:1;/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei:1;/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2:1
+SLURM_MEM_PER_CPU=8000
+HISTFILESIZE=10000
+USER=USER
+SLURM_NNODES=1
+ROCR_VISIBLE_DEVICES=0,1,2,3
+LD_LIBRARY_PATH=/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2/lib64:/appl/spack/install-tree/gcc-9.1.0/boost-1.68.0-6pttok/lib:/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/lib:/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/tbb/lib/intel64_lin/gcc4.7:/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64_lin:/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin:/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/lib64:/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/lib
+SLURM_STEP_NUM_NODES=1
+LMOD_MPI_NAME=hpcx-mpi
+SRUN_DEBUG=3
+_ModuleTable004_=LjAubHVhIixbImZ1bGxOYW1lIl09ImhwY3gtbXBpLzIuNC4wIixbImxvYWRPcmRlciJdPTQscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iaHBjeC1tcGkvMi40LjAiLH0sWyJpbnRlbC1ta2wiXT17WyJmbiJdPSIvYXBwbC9zcGFjay9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvZ2NjLzkuMS4wL2ludGVsLW1rbC8yMDE5LjAuNC5sdWEiLFsiZnVsbE5hbWUiXT0iaW50ZWwtbWtsLzIwMTkuMC40IixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iaW50ZWwtbWtsLzIwMTkuMC40Iix9LH0sbXBhdGhBPXsiL2FwcGwvc3Bh
+CPATH=/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2/include:/appl/spack/install-tree/gcc-9.1.0/boost-1.68.0-6pttok/include:/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/include:/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl/include:/appl/spack/install-tree/gcc-4.8.5/libxml2-2.9.8-ffzbok/include/libxml2:/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/include
+SLURM_JOBID=7310172
+__LMOD_REF_COUNT__LMFILES_=/appl/modulefiles/StdEnv.lua:1;/appl/spack/modulefiles/linux-rhel7-x86_64/Core/gcc/9.1.0.lua:1;/appl/spack/modulefiles/linux-rhel7-x86_64/gcc/9.1.0/intel-mkl/2019.0.4.lua:1;/appl/spack/modulefiles/linux-rhel7-x86_64/gcc/9.1.0/hpcx-mpi/2.4.0.lua:1;/appl/spack/modulefiles/linux-rhel7-x86_64/gcc/9.1.0/boost/1.68.0.lua:1;/appl/spack/modulefiles/linux-rhel7-x86_64/Core/cmake/3.18.2.lua:1;/appl/spack/modulefiles/linux-rhel7-x86_64/gcc/9.1.0/cuda/11.1.0.lua:1
+HPCX_MPI_INSTALL_ROOT=/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei
+SLURM_NTASKS=1
+SLURM_LAUNCH_NODE_IPADDR=10.140.0.115
+PMIX_PTL_MODULE=tcp,usock
+SLURM_STEP_ID=0
+LMOD_FAMILY_MPI_VERSION=2.4.0
+PMIX_SERVER_URI21=pmix-server.116496;tcp4://127.0.0.1:55201
+NLSPATH=/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin/locale/%l_%t/%N
+SLURM_STEP_LAUNCHER_PORT=40435
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXtbImNvbXBpbGVyIl09ImdjYyIsWyJtcGkiXT0iaHBjeC1tcGkiLH0sbVQ9e1N0ZEVudj17WyJmbiJdPSIvYXBwbC9tb2R1bGVmaWxlcy9TdGRFbnYubHVhIixbImZ1bGxOYW1lIl09IlN0ZEVudiIsWyJsb2FkT3JkZXIiXT0xLHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09IlN0ZEVudiIsfSxib29zdD17WyJmbiJdPSIvYXBwbC9zcGFjay9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvZ2NjLzkuMS4wL2Jvb3N0LzEuNjguMC5sdWEiLFsiZnVs
+__LMOD_REF_COUNT_NLSPATH=/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin/locale/%l_%t/%N:1
+MAIL=/var/spool/mail/USER
+PATH=/scratch/project_2002078/USER/nvhpc/Linux_x86_64/21.7/compilers/bin:/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2/bin:/appl/spack/install-tree/gcc-4.8.5/cmake-3.18.2-aq45vh/bin:/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/bin:/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/appl/bin:/users/USER/.local/bin:/users/USER/bin
+SLURM_TASKS_PER_NODE=1
+SLURM_CONF=/etc/slurm/slurm.conf
+SLURM_WORKING_CLUSTER=puhti:slurm.master.bullx:6817:9216:109
+PMIX_SERVER_URI=pmix-server:116496:/tmp/pmix-116496
+_=/usr/bin/env
+SLURM_JOB_ID=7310172
+SLURM_STEP_GPUS=0,1,2,3
+SLURM_PMIX_MAPPING_SERV=(vector,(0,1,1))
+SLURM_STEPID=0
+F90=gfortran
+PWD=/scratch/project_2002078/USER/amd/Author-Kit
+SLURM_JOB_USER=USER
+SLURM_SRUN_COMM_HOST=10.140.0.115
+_LMFILES_=/appl/modulefiles/StdEnv.lua:/appl/spack/modulefiles/linux-rhel7-x86_64/Core/gcc/9.1.0.lua:/appl/spack/modulefiles/linux-rhel7-x86_64/gcc/9.1.0/intel-mkl/2019.0.4.lua:/appl/spack/modulefiles/linux-rhel7-x86_64/gcc/9.1.0/hpcx-mpi/2.4.0.lua:/appl/spack/modulefiles/linux-rhel7-x86_64/gcc/9.1.0/boost/1.68.0.lua:/appl/spack/modulefiles/linux-rhel7-x86_64/Core/cmake/3.18.2.lua:/appl/spack/modulefiles/linux-rhel7-x86_64/gcc/9.1.0/cuda/11.1.0.lua
+XMODIFIERS=@im=ibus
+CUDA_VISIBLE_DEVICES=0,1,2,3
+SLURM_CPU_BIND_TYPE=mask_cpu:
+PMIX_MCA_gds=^ds21
+NVARCH=sm_70
+LANG=en_US.UTF-8
+SLURM_UMASK=0007
+MODULEPATH=/appl/spack/modulefiles/linux-rhel7-x86_64/hpcx-mpi/2.4.0-dnpueiz/gcc/9.1.0:/appl/spack/modulefiles/linux-rhel7-x86_64/gcc/9.1.0:/appl/spack/modulefiles/linux-rhel7-x86_64/Core:/appl/modulefiles
+_ModuleTable_Sz_=5
+LOADEDMODULES=StdEnv:gcc/9.1.0:intel-mkl/2019.0.4:hpcx-mpi/2.4.0:boost/1.68.0:cmake/3.18.2:cuda/11.1.0
+SLURM_JOB_UID=10010673
+SLURM_PMIXP_ABORT_AGENT_PORT=39162
+SLURM_NODEID=0
+SLURM_STEP_RESV_PORTS=15380-15381
+CMAKE_INSTALL_ROOT=/appl/spack/install-tree/gcc-4.8.5/cmake-3.18.2-aq45vh
+CUDA_INSTALL_ROOT=/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2
+I_MPI_F90=gfortran
+F77=gfortran
+SELINUX_LEVEL_REQUESTED=
+SLURM_SUBMIT_DIR=/scratch/project_2002078/USER/amd/Author-Kit
+_ModuleTable005_=Y2svbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L2hwY3gtbXBpLzIuNC4wLWRucHVlaXovZ2NjLzkuMS4wIiwiL2FwcGwvc3BhY2svbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L2djYy85LjEuMCIsIi9hcHBsL3NwYWNrL21vZHVsZWZpbGVzL2xpbnV4LXJoZWw3LXg4Nl82NC9Db3JlIiwiL2FwcGwvbW9kdWxlZmlsZXMiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2FwcGwvc3BhY2svbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L0NvcmU6L2FwcGwvbW9kdWxlZmlsZXMiLH0=
+I_MPI_CC=gcc
+LMOD_CMD=/appl/spack/install-tree/gcc-4.8.5/lmod-7.8-tf4lqs/lmod/lmod/libexec/lmod
+SLURM_NPROCS=1
+SLURM_TASK_PID=116505
+PMIX_GDS_MODULE=ds21,ds12,hash
+SLURM_DISTRIBUTION=cyclic
+SLURM_CPUS_ON_NODE=1
+CXX=g++
+HISTCONTROL=ignoredups
+ENVIRONMENT=BATCH
+SLURM_PROCID=0
+PMIX_DSTORE_21_BASE_PATH=/var/spool/slurmd/pmix.7310172.0//pmix_dstor_ds21_116496
+SLURM_JOB_NODELIST=r02g01
+PMIX_DSTORE_ESH_BASE_PATH=/var/spool/slurmd/pmix.7310172.0//pmix_dstor_ds12_116496
+SHLVL=3
+HOME=/users/USER
+__LMOD_REF_COUNT_PATH=/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2/bin:1;/appl/spack/install-tree/gcc-4.8.5/cmake-3.18.2-aq45vh/bin:1;/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/bin:1;/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/appl/bin:1;/users/USER/.local/bin:1;/users/USER/bin:1
+I_MPI_CXX=g++
+SLURM_LOCALID=0
+PMIX_SECURITY_MODE=native,none
+__LMOD_REF_COUNT_CPATH=/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2/include:1;/appl/spack/install-tree/gcc-9.1.0/boost-1.68.0-6pttok/include:1;/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/include:1;/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl/include:1;/appl/spack/install-tree/gcc-4.8.5/libxml2-2.9.8-ffzbok/include/libxml2:1;/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/include:1
+BOOST_INSTALL_ROOT=/appl/spack/install-tree/gcc-9.1.0/boost-1.68.0-6pttok
+_ModuleTable002_=bE5hbWUiXT0iYm9vc3QvMS42OC4wIixbImxvYWRPcmRlciJdPTUscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0iYm9vc3QiLH0sY21ha2U9e1siZm4iXT0iL2FwcGwvc3BhY2svbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L0NvcmUvY21ha2UvMy4xOC4yLmx1YSIsWyJmdWxsTmFtZSJdPSJjbWFrZS8zLjE4LjIiLFsibG9hZE9yZGVyIl09Nixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJjbWFrZSIsfSxjdWRhPXtbImZuIl09Ii9hcHBsL3NwYWNrL21vZHVsZWZpbGVzL2xpbnV4LXJoZWw3LXg4Nl82NC9nY2MvOS4xLjAvY3VkYS8xMS4xLjAubHVh
+SLURM_CLUSTER_NAME=puhti
+SLURM_JOB_CPUS_PER_NODE=1
+SLURM_JOB_GID=10010673
+FC=gfortran
+SLURM_SUBMIT_HOST=r02g01.bullx
+SLURM_GTIDS=0
+I_MPI_FC=gfortran
+SLURM_JOB_PARTITION=gputest
+LOGNAME=USER
+PMIX_BFROP_BUFFER_TYPE=PMIX_BFROP_BUFFER_NON_DESC
+SLURM_STEP_NUM_TASKS=1
+CVS_RSH=ssh
+XDG_DATA_DIRS=/users/USER/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+SSH_CONNECTION=86.50.165.196 54632 86.50.164.166 22
+SLURM_JOB_ACCOUNT=project_2002078
+GPU_DEVICE_ORDINAL=0,1,2,3
+__LMOD_REF_COUNT_ACLOCAL_PATH=/appl/spack/install-tree/gcc-4.8.5/cmake-3.18.2-aq45vh/share/aclocal:1
+__LMOD_REF_COUNT_LIBRARY_PATH=/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2/lib64:1;/appl/spack/install-tree/gcc-9.1.0/boost-1.68.0-6pttok/lib:1;/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/lib:1;/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/tbb/lib/intel64_lin/gcc4.7:1;/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64_lin:1;/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin:1;/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/lib64:1;/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/lib:1;/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2/lib64/stubs:1
+MODULESHOME=/appl/spack/install-tree/gcc-4.8.5/lmod-7.8-tf4lqs/lmod/lmod
+SLURM_JOB_NUM_NODES=1
+PMIX_SERVER_TMPDIR=/var/spool/slurmd/pmix.7310172.0/
+PKG_CONFIG_PATH=/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/lib/pkgconfig:/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl/bin/pkgconfig
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2/lib64:1;/appl/spack/install-tree/gcc-9.1.0/boost-1.68.0-6pttok/lib:1;/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/lib:1;/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/tbb/lib/intel64_lin/gcc4.7:1;/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/compiler/lib/intel64_lin:1;/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl/lib/intel64_lin:1;/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/lib64:1;/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/lib:1
+LMOD_SETTARG_FULL_SUPPORT=no
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+SLURM_STEP_TASKS_PER_NODE=1
+GCC_INSTALL_ROOT=/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2
+LMOD_MPI_VERSION=2.4.0-dnpueiz
+__Init_Default_Modules=1
+PMIX_SYSTEM_TMPDIR=/tmp
+SLURM_STEP_NODELIST=r02g01
+ACLOCAL_PATH=/appl/spack/install-tree/gcc-4.8.5/cmake-3.18.2-aq45vh/share/aclocal
+LMOD_FAMILY_COMPILER=gcc
+__LMOD_REF_COUNT_PKG_CONFIG_PATH=/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/lib/pkgconfig:1;/appl/opt/cluster_studio_xe2019/compilers_and_libraries_2019.4.243/linux/mkl/bin/pkgconfig:1
+CMAKE_PREFIX_PATH=/appl/spack/install-tree/gcc-9.1.0/cuda-11.1.0-vvfuk2:/appl/spack/install-tree/gcc-4.8.5/cmake-3.18.2-aq45vh:/appl/spack/install-tree/gcc-9.1.0/boost-1.68.0-6pttok:/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei:/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2
+CC=gcc
+XDG_RUNTIME_DIR=/run/user/10010673
+SLURM_CPU_BIND=quiet,mask_cpu:0x0000000001
+__LMOD_REF_COUNT_MANPATH=/appl/spack/install-tree/gcc-9.1.0/hpcx-mpi-2.4.0-dnpuei/share/man:1;/appl/spack/install-tree/gcc-4.8.5/gcc-9.1.0-vpjht2/share/man:1
+LMOD_DIR=/appl/spack/install-tree/gcc-4.8.5/lmod-7.8-tf4lqs/lmod/lmod/libexec
+LMOD_FAMILY_MPI=hpcx-mpi
+HISTTIMEFORMAT=%F %H:%M:%S # 
+PMIX_SERVER_URI2=pmix-server.116496;tcp4://127.0.0.1:55201
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+Linux r02g01.bullx 3.10.0-1160.36.2.el7.x86_64 #1 SMP Thu Jul 8 02:53:40 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                40
+On-line CPU(s) list:   0-39
+Thread(s) per core:    1
+Core(s) per socket:    20
+Socket(s):             2
+NUMA node(s):          2
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 85
+Model name:            Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz
+Stepping:              7
+CPU MHz:               3541.571
+CPU max MHz:           3900.0000
+CPU min MHz:           800.0000
+BogoMIPS:              4200.00
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              1024K
+L3 cache:              28160K
+NUMA node0 CPU(s):     0-19
+NUMA node1 CPU(s):     20-39
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb cat_l3 cdp_l3 invpcid_single intel_ppin intel_pt ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke avx512_vnni md_clear spec_ctrl intel_stibp flush_l1d arch_capabilities
+MemTotal:       394353760 kB
+MemFree:        358943800 kB
+MemAvailable:   380186076 kB
+Buffers:           66656 kB
+Cached:         27542836 kB
+SwapCached:            0 kB
+Active:          2382324 kB
+Inactive:       25275584 kB
+Active(anon):    1267412 kB
+Inactive(anon):  1662780 kB
+Active(file):    1114912 kB
+Inactive(file): 23612804 kB
+Unevictable:       15216 kB
+Mlocked:           15216 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:         62388 kB
+Mapped:            38384 kB
+Shmem:           2882248 kB
+Slab:            2205100 kB
+SReclaimable:     351416 kB
+SUnreclaim:      1853684 kB
+KernelStack:       13808 kB
+PageTables:         5620 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    197176880 kB
+Committed_AS:    5438648 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:     1609292 kB
+VmallocChunk:   34156850176 kB
+Percpu:            37760 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:     10240 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:     8563912 kB
+DirectMap2M:    172492800 kB
+DirectMap1G:    222298112 kB
+NAME        MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINT
+sda           8:0    0   10G  1 disk  
+└─mpatha    253:0    0   10G  1 mpath 
+  └─mpatha1 253:1    0   10G  0 part  /
+sdb           8:16   0   10G  1 disk  
+└─mpatha    253:0    0   10G  1 mpath 
+  └─mpatha1 253:1    0   10G  0 part  /
+loop0         7:0    0        1 loop  
+loop1         7:1    0        1 loop  
+loop2         7:2    0        1 loop  
+loop3         7:3    0        1 loop  
+loop4         7:4    0        1 loop  
+loop5         7:5    0        1 loop  
+loop6         7:6    0        1 loop  
+loop7         7:7    0        1 loop  
+loop8         7:8    0        1 loop  
+loop9         7:9    0        1 loop  
+loop10        7:10   0        1 loop  
+loop11        7:11   0        1 loop  
+nvme0n1     259:0    0  3.7T  0 disk  
+└─nvme0n1p1 259:1    0  3.7T  0 part  
+[10:0:0:0]   disk    LIO-ORG  FILEIO           4.0   /dev/sda   10.7GB
+[11:0:0:0]   disk    LIO-ORG  FILEIO           4.0   /dev/sdb   10.7GB
+Tue Aug 24 00:14:10 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.73.01    Driver Version: 460.73.01    CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-SXM2...  On   | 00000000:61:00.0 Off |                    0 |
+| N/A   27C    P0    41W / 300W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-SXM2...  On   | 00000000:62:00.0 Off |                    0 |
+| N/A   26C    P0    41W / 300W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-SXM2...  On   | 00000000:89:00.0 Off |                    0 |
+| N/A   27C    P0    42W / 300W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla V100-SXM2...  On   | 00000000:8A:00.0 Off |                    0 |
+| N/A   25C    P0    40W / 300W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+00:00.0 Host bridge: Intel Corporation Sky Lake-E DMI3 Registers (rev 07)
+00:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+00:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+00:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+00:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+00:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+00:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+00:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+00:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+00:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 07)
+00:05.2 System peripheral: Intel Corporation Sky Lake-E RAS (rev 07)
+00:05.4 PIC: Intel Corporation Sky Lake-E IOAPIC (rev 07)
+00:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 07)
+00:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 07)
+00:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 07)
+00:11.0 Unassigned class [ff00]: Intel Corporation C620 Series Chipset Family MROM 0 (rev 09)
+00:11.1 Unassigned class [ff00]: Intel Corporation C620 Series Chipset Family MROM 1 (rev 09)
+00:11.5 SATA controller: Intel Corporation C620 Series Chipset Family SSATA Controller [AHCI mode] (rev 09)
+00:14.0 USB controller: Intel Corporation C620 Series Chipset Family USB 3.0 xHCI Controller (rev 09)
+00:14.2 Signal processing controller: Intel Corporation C620 Series Chipset Family Thermal Subsystem (rev 09)
+00:16.0 Communication controller: Intel Corporation C620 Series Chipset Family MEI Controller #1 (rev 09)
+00:16.1 Communication controller: Intel Corporation C620 Series Chipset Family MEI Controller #2 (rev 09)
+00:16.4 Communication controller: Intel Corporation C620 Series Chipset Family MEI Controller #3 (rev 09)
+00:17.0 SATA controller: Intel Corporation C620 Series Chipset Family SATA Controller [AHCI mode] (rev 09)
+00:1c.0 PCI bridge: Intel Corporation C620 Series Chipset Family PCI Express Root Port #1 (rev f9)
+00:1c.5 PCI bridge: Intel Corporation C620 Series Chipset Family PCI Express Root Port #6 (rev f9)
+00:1f.0 ISA bridge: Intel Corporation C621 Series Chipset LPC/eSPI Controller (rev 09)
+00:1f.2 Memory controller: Intel Corporation C620 Series Chipset Family Power Management Controller (rev 09)
+00:1f.4 SMBus: Intel Corporation C620 Series Chipset Family SMBus (rev 09)
+00:1f.5 Serial bus controller [0c80]: Intel Corporation C620 Series Chipset Family SPI Controller (rev 09)
+01:00.0 Ethernet controller: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 (rev 01)
+01:00.1 Ethernet controller: Intel Corporation Ethernet Controller 10-Gigabit X540-AT2 (rev 01)
+02:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+03:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+17:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 07)
+17:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 07)
+17:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 07)
+17:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+17:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+17:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+17:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+17:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+17:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+17:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+17:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+3a:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 07)
+3a:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 07)
+3a:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 07)
+3a:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 07)
+3a:08.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:09.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:0a.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:0a.1 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:0a.2 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:0a.3 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:0a.4 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:0a.5 System peripheral: Intel Corporation Sky Lake-E LM Channel 1 (rev 07)
+3a:0a.6 System peripheral: Intel Corporation Sky Lake-E LMS Channel 1 (rev 07)
+3a:0a.7 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 1 (rev 07)
+3a:0b.0 System peripheral: Intel Corporation Sky Lake-E DECS Channel 2 (rev 07)
+3a:0b.1 System peripheral: Intel Corporation Sky Lake-E LM Channel 2 (rev 07)
+3a:0b.2 System peripheral: Intel Corporation Sky Lake-E LMS Channel 2 (rev 07)
+3a:0b.3 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 2 (rev 07)
+3a:0c.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:0c.1 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:0c.2 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:0c.3 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:0c.4 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+3a:0c.5 System peripheral: Intel Corporation Sky Lake-E LM Channel 1 (rev 07)
+3a:0c.6 System peripheral: Intel Corporation Sky Lake-E LMS Channel 1 (rev 07)
+3a:0c.7 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 1 (rev 07)
+3a:0d.0 System peripheral: Intel Corporation Sky Lake-E DECS Channel 2 (rev 07)
+3a:0d.1 System peripheral: Intel Corporation Sky Lake-E LM Channel 2 (rev 07)
+3a:0d.2 System peripheral: Intel Corporation Sky Lake-E LMS Channel 2 (rev 07)
+3a:0d.3 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 2 (rev 07)
+3b:00.0 Non-Volatile memory controller: Intel Corporation NVMe Datacenter SSD [3DNAND, Beta Rock Controller]
+5d:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 07)
+5d:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 07)
+5d:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 07)
+5d:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 07)
+5d:0e.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 07)
+5d:0e.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 07)
+5d:0f.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 07)
+5d:0f.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 07)
+5d:10.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 07)
+5d:10.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 07)
+5d:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 07)
+5d:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 07)
+5d:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 07)
+5d:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 07)
+5d:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 07)
+5d:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 07)
+5d:15.1 Performance counters: Intel Corporation Sky Lake-E DDRIO Registers (rev 07)
+5d:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 07)
+5d:16.1 Performance counters: Intel Corporation Sky Lake-E DDRIO Registers (rev 07)
+5d:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 07)
+5d:16.5 Performance counters: Intel Corporation Sky Lake-E DDRIO Registers (rev 07)
+5d:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 07)
+5d:17.1 Performance counters: Intel Corporation Sky Lake-E DDRIO Registers (rev 07)
+5e:00.0 PCI bridge: PLX Technology, Inc. Device 8764 (rev ab)
+5f:04.0 PCI bridge: PLX Technology, Inc. Device 8764 (rev ab)
+5f:08.0 PCI bridge: PLX Technology, Inc. Device 8764 (rev ab)
+5f:0c.0 PCI bridge: PLX Technology, Inc. Device 8764 (rev ab)
+60:00.0 Infiniband controller: Mellanox Technologies MT28908 Family [ConnectX-6]
+61:00.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 SXM2 32GB] (rev a1)
+62:00.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 SXM2 32GB] (rev a1)
+80:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+80:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+80:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+80:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+80:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+80:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+80:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+80:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 07)
+80:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 07)
+80:05.2 System peripheral: Intel Corporation Sky Lake-E RAS (rev 07)
+80:05.4 PIC: Intel Corporation Sky Lake-E IOAPIC (rev 07)
+80:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 07)
+80:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 07)
+80:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 07)
+85:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port A (rev 07)
+85:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 07)
+85:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 07)
+85:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 07)
+85:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 07)
+85:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+85:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+85:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+85:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+85:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+85:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+85:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 07)
+86:00.0 PCI bridge: PLX Technology, Inc. Device 8764 (rev ab)
+87:04.0 PCI bridge: PLX Technology, Inc. Device 8764 (rev ab)
+87:08.0 PCI bridge: PLX Technology, Inc. Device 8764 (rev ab)
+87:0c.0 PCI bridge: PLX Technology, Inc. Device 8764 (rev ab)
+88:00.0 Infiniband controller: Mellanox Technologies MT28908 Family [ConnectX-6]
+89:00.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 SXM2 32GB] (rev a1)
+8a:00.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 SXM2 32GB] (rev a1)
+ae:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 07)
+ae:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 07)
+ae:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 07)
+ae:08.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:09.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:0a.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:0a.1 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:0a.2 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:0a.3 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:0a.4 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:0a.5 System peripheral: Intel Corporation Sky Lake-E LM Channel 1 (rev 07)
+ae:0a.6 System peripheral: Intel Corporation Sky Lake-E LMS Channel 1 (rev 07)
+ae:0a.7 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 1 (rev 07)
+ae:0b.0 System peripheral: Intel Corporation Sky Lake-E DECS Channel 2 (rev 07)
+ae:0b.1 System peripheral: Intel Corporation Sky Lake-E LM Channel 2 (rev 07)
+ae:0b.2 System peripheral: Intel Corporation Sky Lake-E LMS Channel 2 (rev 07)
+ae:0b.3 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 2 (rev 07)
+ae:0c.0 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:0c.1 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:0c.2 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:0c.3 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:0c.4 System peripheral: Intel Corporation Sky Lake-E Integrated Memory Controller (rev 07)
+ae:0c.5 System peripheral: Intel Corporation Sky Lake-E LM Channel 1 (rev 07)
+ae:0c.6 System peripheral: Intel Corporation Sky Lake-E LMS Channel 1 (rev 07)
+ae:0c.7 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 1 (rev 07)
+ae:0d.0 System peripheral: Intel Corporation Sky Lake-E DECS Channel 2 (rev 07)
+ae:0d.1 System peripheral: Intel Corporation Sky Lake-E LM Channel 2 (rev 07)
+ae:0d.2 System peripheral: Intel Corporation Sky Lake-E LMS Channel 2 (rev 07)
+ae:0d.3 System peripheral: Intel Corporation Sky Lake-E LMDP Channel 2 (rev 07)
+d7:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port C (rev 07)
+d7:03.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port D (rev 07)
+d7:05.0 System peripheral: Intel Corporation Sky Lake-E VT-d (rev 07)
+d7:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 07)
+d7:05.4 PIC: Intel Corporation Sky Lake-E IOxAPIC Configuration Registers (rev 07)
+d7:0e.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 07)
+d7:0e.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 07)
+d7:0f.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 07)
+d7:0f.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 07)
+d7:10.0 Performance counters: Intel Corporation Sky Lake-E KTI 0 (rev 07)
+d7:10.1 System peripheral: Intel Corporation Sky Lake-E UPI Registers (rev 07)
+d7:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 07)
+d7:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 07)
+d7:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 07)
+d7:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 07)
+d7:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 07)
+d7:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 07)
+d7:15.1 Performance counters: Intel Corporation Sky Lake-E DDRIO Registers (rev 07)
+d7:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 07)
+d7:16.1 Performance counters: Intel Corporation Sky Lake-E DDRIO Registers (rev 07)
+d7:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 07)
+d7:16.5 Performance counters: Intel Corporation Sky Lake-E DDRIO Registers (rev 07)
+d7:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 07)
+d7:17.1 Performance counters: Intel Corporation Sky Lake-E DDRIO Registers (rev 07)

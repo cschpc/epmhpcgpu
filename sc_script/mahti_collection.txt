@@ -1,0 +1,622 @@
+SYCL_SDK_DIR=/scratch/project_2002078/USER/hipsycl_install/
+LMOD_FAMILY_COMPILER_VERSION=9.3.0
+SLURM_NODELIST=g2301
+MANPATH=/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/share/man:/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/share/man:/usr/man:/usr/share/man:/usr/local/man:/usr/local/share/man:/usr/X11R6/man:/opt/man
+SLURM_JOB_NAME=example
+PMIX_NAMESPACE=slurm.pmix.677260.0
+XDG_SESSION_ID=199589
+SPACK_ROOT=/scratch/project_2002078/USER/spack
+_ModuleTable003_=LFsidXNlck5hbWUiXT0iY3VkYS0xMS4zLjAtZ2NjLTkuMy4wLXZtMjdzcmgiLH0sZ2NjPXtbImZuIl09Ii9hcHBsL3NwYWNrL3YwMTQvbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L0NvcmUvZ2NjLzkuMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJnY2MvOS4zLjAiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJnY2MiLH0sb3BlbmJsYXM9e1siZm4iXT0iL2FwcGwvc3BhY2svdjAxNC9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvZ2NjLzkuMy4wL29wZW5ibGFzLzAuMy4xMC5sdWEiLFsiZnVsbE5hbWUiXT0ib3BlbmJsYXMvMC4zLjEwIixbImxvYWRPcmRlciJdPTQscHJv
+HOSTNAME=g2301
+SLURM_TOPOLOGY_ADDR=root_switch.lisw2303.g2301
+SLURMD_NODENAME=g2301
+NVHPC_CBIN=/appl/spack/v016/install-tree/gcc-4.8.5/nvhpc-21.2-l6xyb4/Linux_x86_64/21.2/compilers/bin/
+SELINUX_ROLE_REQUESTED=
+SLURM_PRIO_PROCESS=0
+SLURM_SRUN_COMM_PORT=35901
+I_MPI_F77=gfortran
+SLURM_NODE_ALIASES=(null)
+__LMOD_REF_COUNT_MODULEPATH=/scratch/project_2002078/USER/spack/share/spack/modules/linux-rhel7-zen2:1;/appl/spack/v014/modulefiles/linux-rhel7-x86_64/openmpi/4.0.3-ddb3ro6/gcc/9.3.0:1;/appl/spack/v014/modulefiles/linux-rhel7-x86_64/gcc/9.3.0:1;/appl/spack/v014/modulefiles/linux-rhel7-x86_64/Core:1;/appl/spack/v016/modulefiles/linux-rhel7-x86_64/Core:1;/appl/modulefiles:1
+TERM=xterm-256color
+SHELL=/bin/bash
+PMIX_VERSION=3.1.6
+SLURM_MPI_TYPE=pmix_v3
+LMOD_ROOT=/appl/spack/v014/install-tree/gcc-4.8.5/lmod-8.3-kag3x6/lmod
+HISTSIZE=1000
+SLURM_HINT=nomultithread
+SLURM_JOB_QOS=normal
+LMOD_SYSTEM_DEFAULT_MODULES=StdEnv
+TMPDIR=/tmp/USER/677260
+SSH_CLIENT=193.166.85.244 41968 22
+SLURM_TOPOLOGY_ADDR_PATTERN=switch.switch.node
+SLURM_JOB_CPUS_PER_NODE_PACK_GROUP_0=128
+OMPI_MCA_coll_hcoll_enable=0
+LIBRARY_PATH=/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3/lib:/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/lib:/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/lib64:/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/lib
+LMOD_PACKAGE_PATH=/appl/opt/lmod/apps
+SELINUX_USE_CURRENT_RANGE=
+PMIX_RANK=0
+SLURM_CPU_BIND_VERBOSE=quiet
+LMOD_PKG=/appl/spack/v014/install-tree/gcc-4.8.5/lmod-8.3-kag3x6/lmod/lmod
+CUPLA_ROOT=/scratch/project_2002078/USER/alpaka/cupla
+LMOD_VERSION=8.3
+SLURM_JOB_GPUS=0,1,2,3
+SSH_TTY=/dev/pts/33
+SLURM_CPU_BIND_LIST=0x0000000000000000000000000000000000000000000000000000000000000001
+__LMOD_REF_COUNT_CMAKE_PREFIX_PATH=/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/cuda-11.3.0-vm27srhjuqnh5mwgc7q6ddaoqv5bbmz3:1;/appl/spack/v016/install-tree/gcc-4.8.5/cmake-3.18.4-v4jtzi:1;/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3:1;/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro:1;/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud:1
+__LMOD_REF_COUNT_LOADEDMODULES=StdEnv:1;gcc/9.3.0:1;openmpi/4.0.3:1;openblas/0.3.10:1;cmake/3.18.4:1;cuda-11.3.0-gcc-9.3.0-vm27srh:1
+CUDA_HOME=/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/cuda-11.3.0-vm27srhjuqnh5mwgc7q6ddaoqv5bbmz3
+USER=USER
+SLURM_NNODES=1
+ROCR_VISIBLE_DEVICES=0,1,2,3
+LD_LIBRARY_PATH=/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/cuda-11.3.0-jguxpz5a2j2tjjbp4dkdfhxuewtlca6v/lib64/:/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/cuda-11.3.0-vm27srhjuqnh5mwgc7q6ddaoqv5bbmz3/lib64:/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3/lib:/appl/opt/ucx/1.8.0-mlnx/mt/lib:/appl/opt/ucx/1.8.0-mlnx/mt/lib/ucx:/appl/opt/hcoll/4.5.3045/lib:/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/lib:/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/lib64:/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/lib
+SLURM_STEP_NUM_NODES=1
+LMOD_MPI_NAME=openmpi
+SRUN_DEBUG=3
+CPATH=/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3/include:/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/include:/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/include
+_ModuleTable004_=cFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ib3BlbmJsYXMvMC4zLjEwIix9LG9wZW5tcGk9e1siZm4iXT0iL2FwcGwvc3BhY2svdjAxNC9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvZ2NjLzkuMy4wL29wZW5tcGkvNC4wLjMubHVhIixbImZ1bGxOYW1lIl09Im9wZW5tcGkvNC4wLjMiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzQuMC4zIix9LH0sbXBhdGhBPXsiL3NjcmF0Y2gvcHJvamVjdF8yMDAyMDc4L21hcmtvbWFuL3NwYWNrL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDctemVuMiIsIi9h
+SLURM_JOBID=677260
+SPACK_LD_LIBRARY_PATH=/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/cuda-11.3.0-vm27srhjuqnh5mwgc7q6ddaoqv5bbmz3/lib64:/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3/lib:/appl/opt/ucx/1.8.0-mlnx/mt/lib:/appl/opt/ucx/1.8.0-mlnx/mt/lib/ucx:/appl/opt/hcoll/4.5.3045/lib:/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/lib:/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/lib64:/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/lib
+__LMOD_REF_COUNT__LMFILES_=/appl/modulefiles/StdEnv.lua:1;/appl/spack/v014/modulefiles/linux-rhel7-x86_64/Core/gcc/9.3.0.lua:1;/appl/spack/v014/modulefiles/linux-rhel7-x86_64/gcc/9.3.0/openmpi/4.0.3.lua:1;/appl/spack/v014/modulefiles/linux-rhel7-x86_64/gcc/9.3.0/openblas/0.3.10.lua:1;/appl/spack/v016/modulefiles/linux-rhel7-x86_64/Core/cmake/3.18.4.lua:1;/scratch/project_2002078/USER/spack/share/spack/modules/linux-rhel7-zen2/cuda-11.3.0-gcc-9.3.0-vm27srh:1
+SLURM_NTASKS=1
+SLURM_LAUNCH_NODE_IPADDR=10.141.5.176
+PMIX_PTL_MODULE=tcp,usock
+SLURM_STEP_ID=0
+OPENMPI_INSTALL_ROOT=/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro
+LMOD_FAMILY_MPI_VERSION=4.0.3
+PMIX_SERVER_URI21=pmix-server.130641;tcp4://127.0.0.1:48599
+SLURM_STEP_LAUNCHER_PORT=35901
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTQ4OS4wODM0MDQ1NDEwMixbImNfc2hvcnRUaW1lIl09NC4wNzU2OTUwMzc4NDE4LGRlcHRoVD17fSxmYW1pbHk9e1siY29tcGlsZXIiXT0iZ2NjIixbIm1waSJdPSJvcGVubXBpIix9LG1UPXtTdGRFbnY9e1siZm4iXT0iL2FwcGwvbW9kdWxlZmlsZXMvU3RkRW52Lmx1YSIsWyJmdWxsTmFtZSJdPSJTdGRFbnYiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJTdGRFbnYiLH0sY21ha2U9e1siZm4iXT0iL2FwcGwvc3BhY2svdjAxNi9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvQ29yZS9jbWFr
+MAIL=/var/spool/mail/USER
+PATH=/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/cuda-11.3.0-jguxpz5a2j2tjjbp4dkdfhxuewtlca6v/bin/:/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/cuda-11.3.0-vm27srhjuqnh5mwgc7q6ddaoqv5bbmz3/bin:/scratch/project_2002078/USER/aomp/bin:/scratch/project_2002078/USER/hipsycl_install/bin:/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/gcc-9.1.0-v22bydxzaxk6zeduibnw2atwjixd3ool/bin:/scratch/project_2002078/USER/spack/bin:/appl/spack/v016/install-tree/gcc-4.8.5/cmake-3.18.4-v4jtzi/bin:/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3/bin:/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/bin:/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/bin:/scratch/project_2002078/USER/newnvhpc/install/Linux_x86_64/21.7/compilers/bin:/scratch/project_2002078/USER/newnvhpc/install/Linux_x86_64/21.7/comm_libs/mpi/bin:/scratch/project_2002078/USER/newnvhpc/nvhpc_2021_217_Linux_x86_64_cuda_multi/install_components/Linux_x86_64/21.7/compilers/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/appl/bin:/users/USER/.local/bin:/users/USER/bin
+SLURM_TASKS_PER_NODE=1
+SLURM_CONF=/etc/slurm/slurm.conf
+SLURM_WORKING_CLUSTER=mahti:slurm.master.mahti.csc.fi:6817:8960:109
+_=/usr/bin/env
+SLURM_JOB_ID=677260
+SLURM_STEP_GPUS=0,1,2,3
+SLURM_PMIX_MAPPING_SERV=(vector,(0,1,1))
+SLURM_STEPID=0
+F90=gfortran
+PWD=/scratch/project_2002078/USER/Author-Kit
+SLURM_JOB_USER=USER
+SLURM_SRUN_COMM_HOST=10.141.5.176
+_LMFILES_=/appl/modulefiles/StdEnv.lua:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/Core/gcc/9.3.0.lua:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/gcc/9.3.0/openmpi/4.0.3.lua:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/gcc/9.3.0/openblas/0.3.10.lua:/appl/spack/v016/modulefiles/linux-rhel7-x86_64/Core/cmake/3.18.4.lua:/scratch/project_2002078/USER/spack/share/spack/modules/linux-rhel7-zen2/cuda-11.3.0-gcc-9.3.0-vm27srh
+XMODIFIERS=@im=ibus
+CUDA_VISIBLE_DEVICES=0,1,2,3
+SLURM_CPU_BIND_TYPE=mask_cpu:
+NVARCH=sm_80
+LANG=en_US.UTF-8
+SLURM_UMASK=0007
+OPENBLAS_INSTALL_ROOT=/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3
+MODULEPATH=/scratch/project_2002078/USER/spack/share/spack/modules/linux-rhel7-zen2:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/openmpi/4.0.3-ddb3ro6/gcc/9.3.0:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/gcc/9.3.0:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/Core:/appl/spack/v016/modulefiles/linux-rhel7-x86_64/Core:/appl/modulefiles
+_ModuleTable_Sz_=6
+LOADEDMODULES=StdEnv:gcc/9.3.0:openmpi/4.0.3:openblas/0.3.10:cmake/3.18.4:cuda-11.3.0-gcc-9.3.0-vm27srh
+SLURM_JOB_UID=10010673
+SLURM_NODEID=0
+SLURM_STEP_RESV_PORTS=15594-15595
+CMAKE_INSTALL_ROOT=/appl/spack/v016/install-tree/gcc-4.8.5/cmake-3.18.4-v4jtzi
+I_MPI_F90=gfortran
+F77=gfortran
+SELINUX_LEVEL_REQUESTED=
+SLURM_SUBMIT_DIR=/scratch/project_2002078/USER/Author-Kit
+_ModuleTable005_=cHBsL3NwYWNrL3YwMTQvbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L29wZW5tcGkvNC4wLjMtZGRiM3JvNi9nY2MvOS4zLjAiLCIvYXBwbC9zcGFjay92MDE0L21vZHVsZWZpbGVzL2xpbnV4LXJoZWw3LXg4Nl82NC9nY2MvOS4zLjAiLCIvYXBwbC9zcGFjay92MDE0L21vZHVsZWZpbGVzL2xpbnV4LXJoZWw3LXg4Nl82NC9Db3JlIiwiL2FwcGwvc3BhY2svdjAxNi9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvQ29yZSIsIi9hcHBsL21vZHVsZWZpbGVzIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9hcHBsL3NwYWNrL3YwMTQvbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L0NvcmU6L2FwcGwvc3BhY2svdjAxNi9tb2R1bGVmaWxlcy9saW51eC1yaGVs
+I_MPI_CC=gcc
+LMOD_CMD=/appl/spack/v014/install-tree/gcc-4.8.5/lmod-8.3-kag3x6/lmod/lmod/libexec/lmod
+SLURM_NPROCS=1
+SLURM_TASK_PID=130651
+PMIX_GDS_MODULE=ds21,ds12,hash
+SLURM_DISTRIBUTION=cyclic
+SLURM_CPUS_ON_NODE=256
+CXX=g++
+HISTCONTROL=ignoredups
+ENVIRONMENT=BATCH
+SLURM_PROCID=0
+PMIX_DSTORE_21_BASE_PATH=/var/spool/slurmd/pmix.677260.0//pmix_dstor_ds21_130641
+SLURM_JOB_NODELIST=g2301
+PMIX_DSTORE_ESH_BASE_PATH=/var/spool/slurmd/pmix.677260.0//pmix_dstor_ds12_130641
+SHLVL=3
+HOME=/users/USER
+I_MPI_CXX=g++
+__LMOD_REF_COUNT_PATH=/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/cuda-11.3.0-vm27srhjuqnh5mwgc7q6ddaoqv5bbmz3/bin:2;/scratch/project_2002078/USER/aomp/bin:1;/scratch/project_2002078/USER/hipsycl_install/bin:1;/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/gcc-9.1.0-v22bydxzaxk6zeduibnw2atwjixd3ool/bin:1;/scratch/project_2002078/USER/spack/bin:1;/appl/spack/v016/install-tree/gcc-4.8.5/cmake-3.18.4-v4jtzi/bin:1;/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3/bin:1;/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/bin:1;/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/bin:1;/scratch/project_2002078/USER/newnvhpc/install/Linux_x86_64/21.7/compilers/bin:2;/scratch/project_2002078/USER/newnvhpc/install/Linux_x86_64/21.7/comm_libs/mpi/bin:1;/scratch/project_2002078/USER/newnvhpc/nvhpc_2021_217_Linux_x86_64_cuda_multi/install_components/Linux_x86_64/21.7/compilers/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/appl/bin:1;/users/USER/.local/bin:1;/users/USER/bin:1
+SLURM_LOCALID=0
+PMIX_SECURITY_MODE=native
+__LMOD_REF_COUNT_CPATH=/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3/include:1;/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/include:1;/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/include:1
+_ModuleTable002_=ZS8zLjE4LjQubHVhIixbImZ1bGxOYW1lIl09ImNtYWtlLzMuMTguNCIsWyJsb2FkT3JkZXIiXT01LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImNtYWtlIix9LFsiY3VkYS0xMS4zLjAtZ2NjLTkuMy4wLXZtMjdzcmgiXT17WyJmbiJdPSIvc2NyYXRjaC9wcm9qZWN0XzIwMDIwNzgvbWFya29tYW4vc3BhY2svc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC1yaGVsNy16ZW4yL2N1ZGEtMTEuMy4wLWdjYy05LjMuMC12bTI3c3JoIixbImZ1bGxOYW1lIl09ImN1ZGEtMTEuMy4wLWdjYy05LjMuMC12bTI3c3JoIixbImxvYWRPcmRlciJdPTYscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUi
+SLURM_CLUSTER_NAME=mahti
+SLURM_JOB_CPUS_PER_NODE=128
+SLURM_JOB_GID=10010673
+FC=gfortran
+SLURM_SUBMIT_HOST=g2301.mahti.csc.fi
+SLURM_GTIDS=0
+PMIX_HOSTNAME=g2301.mahti.csc.fi
+I_MPI_FC=gfortran
+SLURM_JOB_PARTITION=gpumedium
+TARGET=NVIDIA
+LOGNAME=USER
+PMIX_BFROP_BUFFER_TYPE=PMIX_BFROP_BUFFER_NON_DESC
+SLURM_STEP_NUM_TASKS=1
+CVS_RSH=ssh
+XDG_DATA_DIRS=/users/USER/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+SSH_CONNECTION=193.166.85.244 41968 86.50.165.196 22
+SLURM_JOB_ACCOUNT=project_2001659
+GPU_DEVICE_ORDINAL=0,1,2,3
+__LMOD_REF_COUNT_ACLOCAL_PATH=/appl/spack/v016/install-tree/gcc-4.8.5/cmake-3.18.4-v4jtzi/share/aclocal:1
+__LMOD_REF_COUNT_LIBRARY_PATH=/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3/lib:1;/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/lib:1;/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/lib64:1;/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/lib:1
+MODULESHOME=/appl/spack/v014/install-tree/gcc-4.8.5/lmod-8.3-kag3x6/lmod/lmod
+SLURM_JOB_NUM_NODES=1
+PMIX_SERVER_TMPDIR=/var/spool/slurmd/pmix.677260.0/
+PKG_CONFIG_PATH=/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3/lib/pkgconfig:/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/lib/pkgconfig
+__LMOD_REF_COUNT_LD_LIBRARY_PATH=/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/cuda-11.3.0-vm27srhjuqnh5mwgc7q6ddaoqv5bbmz3/lib64:1;/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3/lib:1;/appl/opt/ucx/1.8.0-mlnx/mt/lib:1;/appl/opt/ucx/1.8.0-mlnx/mt/lib/ucx:1;/appl/opt/hcoll/4.5.3045/lib:1;/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/lib:1;/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/lib64:1;/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/lib:1
+COMPILER=HIPSYCL
+LMOD_SETTARG_FULL_SUPPORT=no
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+SLURM_STEP_TASKS_PER_NODE=1
+ARCH=sm_80
+LMOD_MPI_VERSION=4.0.3-ddb3ro6
+GCC_INSTALL_ROOT=/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud
+__Init_Default_Modules=1
+PMIX_SYSTEM_TMPDIR=/tmp
+SLURM_STEP_NODELIST=g2301
+SPACK_PYTHON=/usr/bin/python3
+ACLOCAL_PATH=/appl/spack/v016/install-tree/gcc-4.8.5/cmake-3.18.4-v4jtzi/share/aclocal
+LMOD_FAMILY_COMPILER=gcc
+__LMOD_REF_COUNT_PKG_CONFIG_PATH=/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3/lib/pkgconfig:1;/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/lib/pkgconfig:1
+CMAKE_PREFIX_PATH=/scratch/project_2002078/USER/spack/opt/spack/linux-rhel7-zen2/gcc-9.3.0/cuda-11.3.0-vm27srhjuqnh5mwgc7q6ddaoqv5bbmz3:/appl/spack/v016/install-tree/gcc-4.8.5/cmake-3.18.4-v4jtzi:/appl/spack/v014/install-tree/gcc-9.3.0/openblas-0.3.10-ox6ff3:/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro:/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud
+CC=gcc
+XDG_RUNTIME_DIR=/run/user/10010673
+DISPLAY=localhost:11.0
+SLURM_CPU_BIND=quiet,mask_cpu:0x0000000000000000000000000000000000000000000000000000000000000001
+_ModuleTable006_=Ny14ODZfNjQvQ29yZTovYXBwbC9tb2R1bGVmaWxlcyIsfQ==
+__LMOD_REF_COUNT_MANPATH=/appl/spack/v014/install-tree/gcc-9.3.0/openmpi-4.0.3-ddb3ro/share/man:1;/appl/spack/v014/install-tree/gcc-4.8.5/gcc-9.3.0-3cdxud/share/man:1;/usr/man:1;/usr/share/man:1;/usr/local/man:1;/usr/local/share/man:1;/usr/X11R6/man:1;/opt/man:1
+LMOD_DIR=/appl/spack/v014/install-tree/gcc-4.8.5/lmod-8.3-kag3x6/lmod/lmod/libexec
+PMIX_SERVER_URI3=pmix-server.130641;tcp4://127.0.0.1:48599
+LMOD_FAMILY_MPI=openmpi
+SLURM_MEM_PER_NODE=490000
+PMIX_SERVER_URI2=pmix-server.130641;tcp4://127.0.0.1:48599
++ lsb_release -a
+BASH_FUNC__spack_shell_wrapper()=() {  for var in LD_LIBRARY_PATH DYLD_LIBRARY_PATH DYLD_FALLBACK_LIBRARY_PATH;
+ do
+ eval "if [ -n \"\${${var}-}\" ]; then export SPACK_$var=\${${var}}; fi";
+ done;
+ if [ -n "${ZSH_VERSION:-}" ]; then
+ emulate -L sh;
+ fi;
+ _sp_flags="";
+ while [ ! -z ${1+x} ] && [ "${1#-}" != "${1}" ]; do
+ _sp_flags="$_sp_flags $1";
+ shift;
+ done;
+ if [ -n "$_sp_flags" ] && [ "${_sp_flags#*h}" != "${_sp_flags}" ] || [ "${_sp_flags#*V}" != "${_sp_flags}" ]; then
+ command spack $_sp_flags "$@";
+ return;
+ fi;
+ _sp_subcommand="";
+ if [ ! -z ${1+x} ]; then
+ _sp_subcommand="$1";
+ shift;
+ fi;
+ case $_sp_subcommand in 
+ "cd")
+ _sp_arg="";
+ if [ -n "$1" ]; then
+ _sp_arg="$1";
+ shift;
+ fi;
+ if [ "$_sp_arg" = "-h" ] || [ "$_sp_arg" = "--help" ]; then
+ command spack cd -h;
+ else
+ LOC="$(spack location $_sp_arg "$@")";
+ if [ -d "$LOC" ]; then
+ cd "$LOC";
+ else
+ return 1;
+ fi;
+ fi;
+ return
+ ;;
+ "env")
+ _sp_arg="";
+ if [ -n "$1" ]; then
+ _sp_arg="$1";
+ shift;
+ fi;
+ if [ "$_sp_arg" = "-h" ] || [ "$_sp_arg" = "--help" ]; then
+ command spack env -h;
+ else
+ case $_sp_arg in 
+ activate)
+ _a=" $@";
+ if [ -z ${1+x} ] || [ "${_a#* --sh}" != "$_a" ] || [ "${_a#* --csh}" != "$_a" ] || [ "${_a#* -h}" != "$_a" ] || [ "${_a#* --help}" != "$_a" ]; then
+ command spack env activate "$@";
+ else
+ eval $(command spack $_sp_flags env activate --sh "$@");
+ fi
+ ;;
+ deactivate)
+ _a=" $@";
+ if [ "${_a#* --sh}" != "$_a" ] || [ "${_a#* --csh}" != "$_a" ]; then
+ command spack env deactivate "$@";
+ else
+ if [ -n "$*" ]; then
+ command spack env deactivate -h;
+ else
+ eval $(command spack $_sp_flags env deactivate --sh);
+ fi;
+ fi
+ ;;
+ *)
+ command spack env $_sp_arg "$@"
+ ;;
+ esac;
+ fi;
+ return
+ ;;
+ "load" | "unload")
+ _a=" $@";
+ if [ "${_a#* --sh}" != "$_a" ] || [ "${_a#* --csh}" != "$_a" ] || [ "${_a#* -h}" != "$_a" ] || [ "${_a#* --help}" != "$_a" ]; then
+ command spack $_sp_flags $_sp_subcommand "$@";
+ else
+ eval $(command spack $_sp_flags $_sp_subcommand --sh "$@" ||                     echo "return 1");
+ fi
+ ;;
+ *)
+ command spack $_sp_flags $_sp_subcommand "$@"
+ ;;
+ esac
+}
+BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
+}
+BASH_FUNC_spack()=() {  : this is a shell function from: /scratch/project_2002078/USER/spack/share/spack/setup-env.sh;
+ : the real spack script is here: /scratch/project_2002078/USER/spack/bin/spack;
+ _spack_shell_wrapper "$@";
+ return $?
+}
+BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
+}
+/scratch/project_2002078/markoman/Author-Kit/./collect_environment.sh: line 10: lsb_release: command not found
++ uname -a
+Linux g2301.mahti.csc.fi 3.10.0-1160.36.2.el7.x86_64 #1 SMP Thu Jul 8 02:53:40 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
++ lscpu
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                256
+On-line CPU(s) list:   0-255
+Thread(s) per core:    2
+Core(s) per socket:    64
+Socket(s):             2
+NUMA node(s):          4
+Vendor ID:             AuthenticAMD
+CPU family:            23
+Model:                 49
+Model name:            AMD EPYC 7H12 64-Core Processor
+Stepping:              0
+CPU MHz:               2600.000
+CPU max MHz:           2600.0000
+CPU min MHz:           1500.0000
+BogoMIPS:              5199.92
+Virtualization:        AMD-V
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              16384K
+NUMA node0 CPU(s):     0-31,128-159
+NUMA node1 CPU(s):     32-63,160-191
+NUMA node2 CPU(s):     64-95,192-223
+NUMA node3 CPU(s):     96-127,224-255
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc art rep_good nopl nonstop_tsc extd_apicid aperfmperf eagerfpu pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_l2 cpb cat_l3 cdp_l3 hw_pstate sme retpoline_amd ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip overflow_recov succor smca
++ cat /proc/meminfo
+MemTotal:       527680040 kB
+MemFree:        514342172 kB
+MemAvailable:   512444120 kB
+Buffers:               8 kB
+Cached:          2954752 kB
+SwapCached:            0 kB
+Active:            70936 kB
+Inactive:        2941536 kB
+Active(anon):      59844 kB
+Inactive(anon):  2926516 kB
+Active(file):      11092 kB
+Inactive(file):    15020 kB
+Unevictable:       15220 kB
+Mlocked:           15220 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:         55416 kB
+Mapped:            35680 kB
+Shmem:           2946172 kB
+Slab:            1922780 kB
+SReclaimable:     368700 kB
+SUnreclaim:      1554080 kB
+KernelStack:       40496 kB
+PageTables:         4700 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    263840020 kB
+Committed_AS:    5448404 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:     1948260 kB
+VmallocChunk:   33955188948 kB
+Percpu:            54272 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:    61125364 kB
+DirectMap2M:    439941120 kB
+DirectMap1G:    35651584 kB
++ inxi -F -c0
+/scratch/project_2002078/markoman/Author-Kit/./collect_environment.sh: line 14: inxi: command not found
++ lsblk -a
+NAME        MAJ:MIN RM  SIZE RO TYPE  MOUNTPOINT
+sda           8:0    0    6G  1 disk  
+└─mpatha    253:0    0    6G  1 mpath 
+  └─mpatha1 253:1    0    6G  0 part  /
+sdb           8:16   0    6G  1 disk  
+└─mpatha    253:0    0    6G  1 mpath 
+  └─mpatha1 253:1    0    6G  0 part  /
+loop0         7:0    0        1 loop  
+loop1         7:1    0        1 loop  
+loop2         7:2    0        1 loop  
+loop3         7:3    0        1 loop  
+nvme0n1     259:0    0  3.5T  0 disk  
++ lsscsi -s
+[1:0:0:0]    disk    LIO-ORG  FILEIO           4.0   /dev/sdb   6.44GB
+[2:0:0:0]    disk    LIO-ORG  FILEIO           4.0   /dev/sda   6.44GB
++ module list
+++ /appl/spack/v014/install-tree/gcc-4.8.5/lmod-8.3-kag3x6/lmod/lmod/libexec/lmod bash list
+
+Currently Loaded Modules:
+  1) StdEnv      3) openmpi/4.0.3     5) cmake/3.18.4
+  2) gcc/9.3.0   4) openblas/0.3.10   6) cuda-11.3.0-gcc-9.3.0-vm27srh
+
+ 
+
++ eval 'MODULEPATH=/scratch/project_2002078/markoman/spack/share/spack/modules/linux-rhel7-zen2:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/openmpi/4.0.3-ddb3ro6/gcc/9.3.0:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/gcc/9.3.0:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/Core:/appl/spack/v016/modulefiles/linux-rhel7-x86_64/Core:/appl/modulefiles;' export 'MODULEPATH;' '_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTQ4OS4wODM0MDQ1NDEwMixbImNfc2hvcnRUaW1lIl09NC4wNzU2OTUwMzc4NDE4LGRlcHRoVD17fSxmYW1pbHk9e1siY29tcGlsZXIiXT0iZ2NjIixbIm1waSJdPSJvcGVubXBpIix9LG1UPXtTdGRFbnY9e1siZm4iXT0iL2FwcGwvbW9kdWxlZmlsZXMvU3RkRW52Lmx1YSIsWyJmdWxsTmFtZSJdPSJTdGRFbnYiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJTdGRFbnYiLH0sY21ha2U9e1siZm4iXT0iL2FwcGwvc3BhY2svdjAxNi9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvQ29yZS9jbWFr;' export '_ModuleTable001_;' '_ModuleTable002_=ZS8zLjE4LjQubHVhIixbImZ1bGxOYW1lIl09ImNtYWtlLzMuMTguNCIsWyJsb2FkT3JkZXIiXT01LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImNtYWtlIix9LFsiY3VkYS0xMS4zLjAtZ2NjLTkuMy4wLXZtMjdzcmgiXT17WyJmbiJdPSIvc2NyYXRjaC9wcm9qZWN0XzIwMDIwNzgvbWFya29tYW4vc3BhY2svc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC1yaGVsNy16ZW4yL2N1ZGEtMTEuMy4wLWdjYy05LjMuMC12bTI3c3JoIixbImZ1bGxOYW1lIl09ImN1ZGEtMTEuMy4wLWdjYy05LjMuMC12bTI3c3JoIixbImxvYWRPcmRlciJdPTYscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUi;' export '_ModuleTable002_;' '_ModuleTable003_=LFsidXNlck5hbWUiXT0iY3VkYS0xMS4zLjAtZ2NjLTkuMy4wLXZtMjdzcmgiLH0sZ2NjPXtbImZuIl09Ii9hcHBsL3NwYWNrL3YwMTQvbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L0NvcmUvZ2NjLzkuMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJnY2MvOS4zLjAiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJnY2MiLH0sb3BlbmJsYXM9e1siZm4iXT0iL2FwcGwvc3BhY2svdjAxNC9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvZ2NjLzkuMy4wL29wZW5ibGFzLzAuMy4xMC5sdWEiLFsiZnVsbE5hbWUiXT0ib3BlbmJsYXMvMC4zLjEwIixbImxvYWRPcmRlciJdPTQscHJv;' export '_ModuleTable003_;' '_ModuleTable004_=cFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ib3BlbmJsYXMvMC4zLjEwIix9LG9wZW5tcGk9e1siZm4iXT0iL2FwcGwvc3BhY2svdjAxNC9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvZ2NjLzkuMy4wL29wZW5tcGkvNC4wLjMubHVhIixbImZ1bGxOYW1lIl09Im9wZW5tcGkvNC4wLjMiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzQuMC4zIix9LH0sbXBhdGhBPXsiL3NjcmF0Y2gvcHJvamVjdF8yMDAyMDc4L21hcmtvbWFuL3NwYWNrL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDctemVuMiIsIi9h;' export '_ModuleTable004_;' '_ModuleTable005_=cHBsL3NwYWNrL3YwMTQvbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L29wZW5tcGkvNC4wLjMtZGRiM3JvNi9nY2MvOS4zLjAiLCIvYXBwbC9zcGFjay92MDE0L21vZHVsZWZpbGVzL2xpbnV4LXJoZWw3LXg4Nl82NC9nY2MvOS4zLjAiLCIvYXBwbC9zcGFjay92MDE0L21vZHVsZWZpbGVzL2xpbnV4LXJoZWw3LXg4Nl82NC9Db3JlIiwiL2FwcGwvc3BhY2svdjAxNi9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvQ29yZSIsIi9hcHBsL21vZHVsZWZpbGVzIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9hcHBsL3NwYWNrL3YwMTQvbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L0NvcmU6L2FwcGwvc3BhY2svdjAxNi9tb2R1bGVmaWxlcy9saW51eC1yaGVs;' export '_ModuleTable005_;' '_ModuleTable006_=Ny14ODZfNjQvQ29yZTovYXBwbC9tb2R1bGVmaWxlcyIsfQ==;' export '_ModuleTable006_;' '_ModuleTable_Sz_=6;' export '_ModuleTable_Sz_;'
+++ MODULEPATH=/scratch/project_2002078/markoman/spack/share/spack/modules/linux-rhel7-zen2:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/openmpi/4.0.3-ddb3ro6/gcc/9.3.0:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/gcc/9.3.0:/appl/spack/v014/modulefiles/linux-rhel7-x86_64/Core:/appl/spack/v016/modulefiles/linux-rhel7-x86_64/Core:/appl/modulefiles
+++ export MODULEPATH
+++ _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPTQ4OS4wODM0MDQ1NDEwMixbImNfc2hvcnRUaW1lIl09NC4wNzU2OTUwMzc4NDE4LGRlcHRoVD17fSxmYW1pbHk9e1siY29tcGlsZXIiXT0iZ2NjIixbIm1waSJdPSJvcGVubXBpIix9LG1UPXtTdGRFbnY9e1siZm4iXT0iL2FwcGwvbW9kdWxlZmlsZXMvU3RkRW52Lmx1YSIsWyJmdWxsTmFtZSJdPSJTdGRFbnYiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJTdGRFbnYiLH0sY21ha2U9e1siZm4iXT0iL2FwcGwvc3BhY2svdjAxNi9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvQ29yZS9jbWFr
+++ export _ModuleTable001_
+++ _ModuleTable002_=ZS8zLjE4LjQubHVhIixbImZ1bGxOYW1lIl09ImNtYWtlLzMuMTguNCIsWyJsb2FkT3JkZXIiXT01LHByb3BUPXt9LFsic3RhY2tEZXB0aCJdPTAsWyJzdGF0dXMiXT0iYWN0aXZlIixbInVzZXJOYW1lIl09ImNtYWtlIix9LFsiY3VkYS0xMS4zLjAtZ2NjLTkuMy4wLXZtMjdzcmgiXT17WyJmbiJdPSIvc2NyYXRjaC9wcm9qZWN0XzIwMDIwNzgvbWFya29tYW4vc3BhY2svc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC1yaGVsNy16ZW4yL2N1ZGEtMTEuMy4wLWdjYy05LjMuMC12bTI3c3JoIixbImZ1bGxOYW1lIl09ImN1ZGEtMTEuMy4wLWdjYy05LjMuMC12bTI3c3JoIixbImxvYWRPcmRlciJdPTYscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUi
+++ export _ModuleTable002_
+++ _ModuleTable003_=LFsidXNlck5hbWUiXT0iY3VkYS0xMS4zLjAtZ2NjLTkuMy4wLXZtMjdzcmgiLH0sZ2NjPXtbImZuIl09Ii9hcHBsL3NwYWNrL3YwMTQvbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L0NvcmUvZ2NjLzkuMy4wLmx1YSIsWyJmdWxsTmFtZSJdPSJnY2MvOS4zLjAiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJnY2MiLH0sb3BlbmJsYXM9e1siZm4iXT0iL2FwcGwvc3BhY2svdjAxNC9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvZ2NjLzkuMy4wL29wZW5ibGFzLzAuMy4xMC5sdWEiLFsiZnVsbE5hbWUiXT0ib3BlbmJsYXMvMC4zLjEwIixbImxvYWRPcmRlciJdPTQscHJv
+++ export _ModuleTable003_
+++ _ModuleTable004_=cFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0ib3BlbmJsYXMvMC4zLjEwIix9LG9wZW5tcGk9e1siZm4iXT0iL2FwcGwvc3BhY2svdjAxNC9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvZ2NjLzkuMy4wL29wZW5tcGkvNC4wLjMubHVhIixbImZ1bGxOYW1lIl09Im9wZW5tcGkvNC4wLjMiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJvcGVubXBpLzQuMC4zIix9LH0sbXBhdGhBPXsiL3NjcmF0Y2gvcHJvamVjdF8yMDAyMDc4L21hcmtvbWFuL3NwYWNrL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDctemVuMiIsIi9h
+++ export _ModuleTable004_
+++ _ModuleTable005_=cHBsL3NwYWNrL3YwMTQvbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L29wZW5tcGkvNC4wLjMtZGRiM3JvNi9nY2MvOS4zLjAiLCIvYXBwbC9zcGFjay92MDE0L21vZHVsZWZpbGVzL2xpbnV4LXJoZWw3LXg4Nl82NC9nY2MvOS4zLjAiLCIvYXBwbC9zcGFjay92MDE0L21vZHVsZWZpbGVzL2xpbnV4LXJoZWw3LXg4Nl82NC9Db3JlIiwiL2FwcGwvc3BhY2svdjAxNi9tb2R1bGVmaWxlcy9saW51eC1yaGVsNy14ODZfNjQvQ29yZSIsIi9hcHBsL21vZHVsZWZpbGVzIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii9hcHBsL3NwYWNrL3YwMTQvbW9kdWxlZmlsZXMvbGludXgtcmhlbDcteDg2XzY0L0NvcmU6L2FwcGwvc3BhY2svdjAxNi9tb2R1bGVmaWxlcy9saW51eC1yaGVs
+++ export _ModuleTable005_
+++ _ModuleTable006_=Ny14ODZfNjQvQ29yZTovYXBwbC9tb2R1bGVmaWxlcyIsfQ==
+++ export _ModuleTable006_
+++ _ModuleTable_Sz_=6
+++ export _ModuleTable_Sz_
+++ : -s sh
++ eval
++ nvidia-smi
+Tue Aug 24 00:18:20 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 460.73.01    Driver Version: 460.73.01    CUDA Version: 11.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  A100-SXM4-40GB      On   | 00000000:03:00.0 Off |                    0 |
+| N/A   38C    P0    57W / 400W |      0MiB / 40536MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+|   1  A100-SXM4-40GB      On   | 00000000:44:00.0 Off |                    0 |
+| N/A   37C    P0    59W / 400W |      0MiB / 40536MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+|   2  A100-SXM4-40GB      On   | 00000000:84:00.0 Off |                    0 |
+| N/A   37C    P0    57W / 400W |      0MiB / 40536MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+|   3  A100-SXM4-40GB      On   | 00000000:C4:00.0 Off |                    0 |
+| N/A   37C    P0    59W / 400W |      0MiB / 40536MiB |      0%      Default |
+|                               |                      |             Disabled |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
++ cat
++ lshw -short -quiet -sanitize
+/scratch/project_2002078/markoman/Author-Kit/./collect_environment.sh: line 19: lshw: command not found
++ lspci
+00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+00:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Starship/Matisse IOMMU
+00:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+00:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+00:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+00:14.0 SMBus: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller (rev 61)
+00:14.3 ISA bridge: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge (rev 51)
+00:18.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 0
+00:18.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 1
+00:18.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 2
+00:18.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 3
+00:18.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 4
+00:18.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 5
+00:18.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 6
+00:18.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 7
+00:19.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 0
+00:19.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 1
+00:19.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 2
+00:19.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 3
+00:19.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 4
+00:19.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 5
+00:19.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 6
+00:19.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship Device 24; Function 7
+01:00.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+02:00.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+02:01.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+02:1f.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+03:00.0 3D controller: NVIDIA Corporation GA100 [GRID A100X] (rev a1)
+04:00.0 Infiniband controller: Mellanox Technologies MT28908 Family [ConnectX-6]
+05:00.0 Serial Attached SCSI controller: Broadcom / LSI Device 00b2 (rev b0)
+06:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+06:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+07:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+07:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+07:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Starship USB 3.0 Host Controller
+20:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+20:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Starship/Matisse IOMMU
+20:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+20:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+20:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+21:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+21:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+22:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+22:00.1 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Cryptographic Coprocessor PSPCPP
+22:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+22:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Starship USB 3.0 Host Controller
+40:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+40:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Starship/Matisse IOMMU
+40:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+40:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+40:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+40:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+41:00.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+42:00.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+42:01.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+42:1f.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+43:00.0 Infiniband controller: Mellanox Technologies MT28908 Family [ConnectX-6]
+44:00.0 3D controller: NVIDIA Corporation GA100 [GRID A100X] (rev a1)
+45:00.0 Serial Attached SCSI controller: Broadcom / LSI Device 00b2 (rev b0)
+46:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+46:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+47:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+47:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+60:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+60:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Starship/Matisse IOMMU
+60:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:05.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+60:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+60:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+60:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+61:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+62:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+63:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+63:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+64:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+64:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+80:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+80:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Starship/Matisse IOMMU
+80:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+80:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+80:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+80:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+81:00.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+82:00.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+82:01.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+82:1f.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+83:00.0 Infiniband controller: Mellanox Technologies MT28908 Family [ConnectX-6]
+84:00.0 3D controller: NVIDIA Corporation GA100 [GRID A100X] (rev a1)
+85:00.0 Serial Attached SCSI controller: Broadcom / LSI Device 00b2 (rev b0)
+86:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+86:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+87:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+87:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+a0:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+a0:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Starship/Matisse IOMMU
+a0:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+a0:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+a0:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+a1:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+a1:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+a2:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+a2:00.1 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Cryptographic Coprocessor PSPCPP
+a2:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+c0:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+c0:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Starship/Matisse IOMMU
+c0:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+c0:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+c0:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+c0:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+c0:08.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+c1:00.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+c2:00.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+c2:01.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+c2:1f.0 PCI bridge: Broadcom / LSI Device c010 (rev b0)
+c3:00.0 Infiniband controller: Mellanox Technologies MT28908 Family [ConnectX-6]
+c4:00.0 3D controller: NVIDIA Corporation GA100 [GRID A100X] (rev a1)
+c5:00.0 Serial Attached SCSI controller: Broadcom / LSI Device 00b2 (rev b0)
+c6:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+c6:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+c7:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+c7:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+c8:00.0 SATA controller: Advanced Micro Devices, Inc. [AMD] FCH SATA Controller [AHCI mode] (rev 51)
+e0:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Root Complex
+e0:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Starship/Matisse IOMMU
+e0:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:03.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+e0:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:05.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:05.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse GPP Bridge
+e0:07.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:07.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+e0:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Host Bridge
+e0:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Internal PCIe GPP Bridge 0 to bus[E:B]
+e1:00.0 Non-Volatile memory controller: Micron Technology Inc Device 51a2 (rev 01)
+e2:00.0 Ethernet controller: Intel Corporation I350 Gigabit Backplane Connection (rev 01)
+e2:00.1 Ethernet controller: Intel Corporation I350 Gigabit Backplane Connection (rev 01)
+e4:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PCIe Dummy Function
+e4:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
+e5:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD] Starship/Matisse Reserved SPP
+e5:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Starship/Matisse PTDMA
