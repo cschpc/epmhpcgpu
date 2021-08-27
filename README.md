@@ -309,19 +309,27 @@ A new png file is created and called babel_kokkos_all.png
 
 sbatch minibude_hip_mi100.sh
 
+./extract.sh minibude_hip_mi100_out minibude_hip_mi100.dat
+
+
 ### CUDA
 
 * The input file big5 is provided and need to put the proper path int he submission files
 
 sbatch minibude_cuda_v100.sh
 
+./extract.sh minibude_cuda_v100_out minibude_cuda_v100.dat
+
+
 sbatch minibude_cuda_a100.sh
+
+./extract.sh minibude_cuda_a100_out minibude_cuda_a100.dat
 
 ### Analysis
 
 * Transfer the output files to the same system
 
-paste minibude_hip_mi100.dat minibude_hip_mi100.dat minibude_hip_mi100.dat > minibude_hip_cuda_all.dat
+paste minibude_hip_mi100.dat minibude_cuda_v100.dat minibude_cuda_a100.dat > minibude_hip_cuda_all.dat
 
 ./replace3bude.sh minibude_hip_cuda_all minibude_hip_cuda_all 10800 11050 13800 14000 22700 22950 "CUDA and HIP"
 
