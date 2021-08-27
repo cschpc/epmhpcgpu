@@ -63,7 +63,7 @@ cmake -DCMAKE_CXX_COMPILER=/scratch/project/markoman/amd/BabelStream/new/kokkos/
 ```
 git clone https://github.com/UoB-HPC/BabelStream.git
 cd BabelStream
-git checkout 8f9ca7b
+git checkout 6fe81e1
 ```
 * We include instructions only for the cases that the default provided compilation was not working or we had to add a flag
 
