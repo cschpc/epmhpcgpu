@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=babel_omp
-#SBATCH --account=project_2002078
+#SBATCH --account=project
 #SBATCH --partition=gpumedium
 #SBATCH --time=00:02:00
 #SBATCH -e babel_omp_v100_error

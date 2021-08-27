@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=miniBUDE_cuda
-#SBATCH --account=project_2002078
+#SBATCH --account=project
 #SBATCH --partition=gputest
 #SBATCH --time=00:15:00
 #SBATCH -e minibude_cuda_v100_error

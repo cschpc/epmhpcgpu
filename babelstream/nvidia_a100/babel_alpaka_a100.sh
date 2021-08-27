@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=babel_alpaka
-#SBATCH --account=project_2001659
+#SBATCH --account=project
 #SBATCH --partition=gpusmall
 #SBATCH -o babel_alpaka_a100_out
 #SBATCH -e babel_alpaka_a100_error

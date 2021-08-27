@@ -66,17 +66,17 @@ git checkout 8f9ca7b
 
 ### NVIDIA V100
 
-cmake -Bbuild -H. -DMODEL=Kokkos -DCMAKE_CXX_COMPILER=/scratch/project_2002078/markoman/kokkos/bin/nvcc_wrapper \
--DCMAKE_INSTALL_PREFIX=/scratch/project_2002078/markoman/kokkos/install -DKokkos_ENABLE_SERIAL=ON -DKokkos_ENABLE_CUDA=ON\
+cmake -Bbuild -H. -DMODEL=Kokkos -DCMAKE_CXX_COMPILER=/scratch/project/markoman/kokkos/bin/nvcc_wrapper \
+-DCMAKE_INSTALL_PREFIX=/scratch/project/markoman/kokkos/install -DKokkos_ENABLE_SERIAL=ON -DKokkos_ENABLE_CUDA=ON\
 -DKokkos_ARCH_VOLTA70=ON -DKokkos_CUDA_DIR=/path_to_your_cuda \
--DKOKKOS_IN_TREE=/scratch/project_2002078/markoman/kokkos -DCXX_FLAGS="--expt-extended-lambda" -DKokkos_ENABLE_CUDA_LAMBDA=ON
+-DKOKKOS_IN_TREE=/scratch/project/markoman/kokkos -DCXX_FLAGS="--expt-extended-lambda" -DKokkos_ENABLE_CUDA_LAMBDA=ON
 
 ### NVIDIA A100
 
-cmake -Bbuild -H. -DMODEL=Kokkos -DCMAKE_CXX_COMPILER=/scratch/project_2002078/markoman/kokkos/bin/nvcc_wrapper \
--DCMAKE_INSTALL_PREFIX=/scratch/project_2002078/markoman/kokkos/install -DKokkos_ENABLE_SERIAL=ON -DKokkos_ENABLE_CUDA=ON\
+cmake -Bbuild -H. -DMODEL=Kokkos -DCMAKE_CXX_COMPILER=/scratch/project/markoman/kokkos/bin/nvcc_wrapper \
+-DCMAKE_INSTALL_PREFIX=/scratch/project/markoman/kokkos/install -DKokkos_ENABLE_SERIAL=ON -DKokkos_ENABLE_CUDA=ON\
 -DKokkos_ARCH_AMPERE80=ON -DKokkos_CUDA_DIR=path_your_cuda\
--DKOKKOS_IN_TREE=/scratch/project_2002078/markoman/kokkos -DCXX_FLAGS="--expt-extended-lambda" -DKokkos_ENABLE_CUDA_LAMBDA=ON
+-DKOKKOS_IN_TREE=/scratch/project/markoman/kokkos -DCXX_FLAGS="--expt-extended-lambda" -DKokkos_ENABLE_CUDA_LAMBDA=ON
 
 ### AMD MI100
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=babel_hipsycl
-#SBATCH --account=project_2001659
+#SBATCH --account=project
 #SBATCH --partition=gpusmall
 #SBATCH --time=00:10:00
 #SBATCH -o babel_hipsycl_a100_out

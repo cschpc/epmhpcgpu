@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=babel_cuda
-#SBATCH --account=project_2001659
+#SBATCH --account=project
 #SBATCH --partition=gpusmall
 #SBATCH -o minibude_cuda_a100_out
 #SBATCH -e minibude_cuda_a100_error
