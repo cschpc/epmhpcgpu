@@ -85,5 +85,12 @@
             "name": "Michael Bussmann"
         }
     ], 
-    "access_right": "open"
+    "access_right": "open",
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/cschpc/epmhpcgpu/tree/v1.3.6", 
+            "relation": "isSupplementTo"
+        } 
+    ]
 }
