@@ -14,6 +14,9 @@ The directory for the BabelStream
 
 The directory for the miniBUDE 
 
+## Instructions in case that there will be no job submission
+
+Under each benchmark there is directory called results with the data that we used for the plots. If you do not want to submit the jobs, then you can use these files with the `paste` commands
 
 # Kokkos installation
 
