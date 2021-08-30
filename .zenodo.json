@@ -1,0 +1,101 @@
+{
+    "description": "<p>Dataset and scripts for the paper with title Evaluating Programming Models for the HPC GPU Ecosystem</p>", 
+    "license": "MPL-2.0", 
+    "title": "cschpc/epmhpcgpu: Dataset and scripts for the paper with title Evaluating Programming Models for the HPC GPU Ecosystem", 
+    "version": "v1.0.0", 
+    "upload_type": "dataset", 
+    "keywords": [
+        "babelstream", 
+        "minibude", 
+        "openmp", 
+        "hip", 
+        "cuda", 
+        "hipsycl", 
+        "alpaka", 
+        "kokkos"
+    ], 
+    "publication_date": "2021-08-27", 
+    "creators": [
+        {
+            "orcid": "0000-0002-5571-4823", 
+            "affiliation": "CSC - IT Center For Science Ltd.", 
+            "name": "George Markomanolis"
+        }, 
+        {
+            "affiliation": "University of Heidelberg", 
+            "name": "Aksel Alpay"
+        }, 
+        {
+            "orcid": "0000-0001-9841-4057", 
+            "affiliation": "Georgia Institute of Technology", 
+            "name": "Jeffrey Young"
+        }, 
+        {
+            "orcid": "0000-0002-8634-4634", 
+            "affiliation": "Advanced Micro Devices Inc", 
+            "name": "Michael Klemm"
+        }, 
+        {
+            "orcid": "0000-0001-6259-7453", 
+            "affiliation": "Advanced Micro Devices Inc", 
+            "name": "Nicholas Malaya"
+        }, 
+        {
+            "orcid": "0000-0003-1597-0811", 
+            "affiliation": "Hewlett Packard Enterprise", 
+            "name": "Aniello Esposito"
+        }, 
+        {
+            "affiliation": "CSC - IT Center For Science Ltd.", 
+            "name": "Jussi Heikonen"
+        }, 
+        {
+            "orcid": "0000-0003-3396-6154", 
+            "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf", 
+            "name": "Sergei Bastrakov"
+        }, 
+        {
+            "orcid": "0000-0002-3844-3697", 
+            "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf", 
+            "name": "Alexander Debus"
+        }, 
+        {
+            "orcid": "0000-0003-4861-5584", 
+            "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf", 
+            "name": "Thomas Kluge"
+        }, 
+        {
+            "orcid": "0000-0001-8965-1149", 
+            "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf", 
+            "name": "Klaus Steiniger"
+        }, 
+        {
+            "orcid": "0000-0001-7839-4386", 
+            "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf", 
+            "name": "Jan Stephan"
+        }, 
+        {
+            "orcid": "0000-0003-1642-0459", 
+            "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf", 
+            "name": "Rene Widera"
+        }, 
+        {
+            "orcid": "0000-0002-8258-3881", 
+            "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf", 
+            "name": "Michael Bussmann"
+        }
+    ], 
+    "access_right": "open", 
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/cschpc/epmhpcgpu/tree/v1.2.0", 
+            "relation": "isSupplementTo"
+        }, 
+        {
+            "scheme": "doi", 
+            "identifier": "10.5281/zenodo.5287705", 
+            "relation": "isVersionOf"
+        }
+    ]
+}
