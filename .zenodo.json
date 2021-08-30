@@ -86,16 +86,5 @@
         }
     ], 
     "access_right": "open", 
-    "related_identifiers": [
-        {
-            "scheme": "url", 
-            "identifier": "https://github.com/cschpc/epmhpcgpu/tree/v1.3.2", 
-            "relation": "isSupplementTo"
-        }, 
-        {
-            "scheme": "doi", 
-            "identifier": "10.5281/zenodo.5287705", 
-            "relation": "isVersionOf"
-        }
     ]
 }
