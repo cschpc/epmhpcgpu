@@ -45,5 +45,5 @@ authors:
     given-names: Michael
     affiliation: Helmholtz-Zentrum Dresden-Rossendorf
 title: Dataset and scripts for the paper Evaluating Programming Models for the HPC GPU Ecosystem
-version: 1.3.6
+version: 1.4.1
 date-released: 2021-08-27
