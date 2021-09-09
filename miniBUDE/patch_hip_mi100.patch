@@ -1,0 +1,11 @@
+--- shared.h    2021-09-06 00:25:04.851068901 -0700
++++ shared.h    2021-07-27 05:25:23.555590743 -0700
+@@ -1,7 +1,7 @@
+ #ifndef __SHARED
+ #define __SHARED
+
+-#define NUM_TD_PER_THREAD 4
++#define NUM_TD_PER_THREAD 1
+
+ typedef struct
+ {

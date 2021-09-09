@@ -142,7 +142,7 @@ cmake -DMODEL=CUPLA -DALPAKA_ACC_GPU_CUDA_ENABLE=ON -DALPAKA_CUDA_ARCH=80 ..
 
 The patches are required for perfromance tuning, to run the default benchmarks, do not apply the patches.
 Patches are required only for BabelStream
-The Alpaka version of BabelStream is temporary located here: https://github.com/jyoung3131/BabelStream
+The Alpaka version of BabelStream is located here: https://github.com/jyoung3131/BabelStream/tree/v3.4-alpaka
 
 ### MI100
 ```
@@ -171,8 +171,14 @@ git checkout 1af5b39
 ## Installation
 
 ### MI100 (HIP)
+
+* Some patches are required only for the HIP version
+
 ```
-cd cuda
+cp -r cuda hip
+cd hip
+patch shared.h < ../patch_hip_mi100.patch
+patch Makefile < ../patch_hip_mi100_makefile.patch
 make USE_HIP=1 
 ```
 ### NVIDIA
