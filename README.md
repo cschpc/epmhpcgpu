@@ -346,7 +346,7 @@ sbatch minibude_cuda_a100.sh
 ```
 paste minibude_hip_mi100.dat minibude_cuda_v100.dat minibude_cuda_a100.dat > minibude_hip_cuda_all.dat
 
-./replace3bude.sh minibude_hip_cuda_all minibude_hip_cuda_all 10800 11050 13800 14000 22700 22950 "CUDA and HIP"
+./replace3bude.sh minibude_hip_cuda_all minibude_hip_cuda_all 10800 11050 13600 14000 "CUDA and HIP"
 ```
 
 * A new file called minibude_hip_cuda_all.png is created
